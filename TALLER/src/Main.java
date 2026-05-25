@@ -49,7 +49,7 @@ public class Main {
 
         } while (op != 0);
 
-        sc.close(); // <-- buena práctica cerrarlo al salir
+        sc.close(); 
     }
 
     static void menuRegisterPassenger(Scanner sc, PassengerService passengerService) {
